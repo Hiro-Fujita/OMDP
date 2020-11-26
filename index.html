@@ -20,19 +20,54 @@
 
 
     <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
+        .carousel-item{
+            height:32rem;
+            background:#777;
+            color:white;
+            position: relative;
+            background-position:center;
+            background-size:cover;
+        }
+        #anonymous {
+            background: url("imgs/anonymous.jpg") no-repeat center;
+            background-size: cover;
+            position: relative;
         }
 
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
+        #tracking {
+            background: url("imgs/tracking_pic.jpg") no-repeat center;
+            background-size: cover;
+            position: relative;
+        }
+
+        #lookalike {
+            background: url("imgs/laptop.jpg") no-repeat center;
+            background-size: cover;
+            position: relative;
+        }
+
+        #lowprofile {
+            background: url("imgs/lowProfile_pic.jpg") no-repeat center;
+            background-size: cover;
+            position: relative;
+        }
+
+        #legal {
+            background: url("imgs/legal_pic.jpg") no-repeat center;
+            background-size: cover;
+            position: relative;
+        }
+
+        #facebook {
+            background: url("imgs/social_del_pic.jpg") no-repeat center;
+            background-size: cover;
+            position: relative;
+        }
+
+        #people {
+            background: url("imgs/Important_people_pic.jpg") no-repeat center;
+            background-size: cover;
+            position: relative;
         }
     </style>
     <!-- Custom styles for this template -->
@@ -40,23 +75,24 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">HF</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a style="color: #b7b7b7" class="navbar-brand" href="index.html">Online Marketing and Data Privacy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col-auto">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"> <a class="nav-link" href="anonymous.html">Become Anonymous</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="tracking.html">Tracking Online</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="look.html">Look-Alike</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="people.html">Important People</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="facebook.html">Facebook</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="legal.html">Legal</a> </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
 </header>
@@ -74,22 +110,22 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <img src="imgs/anonymous.jpg"/>
                 <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>How to Become Anonymous</h1>
                         <p>Tips to avoid getting tracked</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="anonymous.html" role="button">Learn more</a></p>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="container">
+                <div id="anonymous" style="height: 600px;">
                     <div class="carousel-caption">
                         <h1>Tracking Online</h1>
                         <p>The ways in which information is obtained</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="tracking.html" role="button">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -99,7 +135,7 @@
                     <div class="carousel-caption">
                         <h1>Look-Alike Analysis</h1>
                         <p>Why advertisements are catered towards you</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="look.html" role="button">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -109,7 +145,7 @@
                     <div class="carousel-caption">
                         <h1>Important People</h1>
                         <p>Shoshana Zuboff and Edward Snowden</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="people.html" role="button">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -119,7 +155,7 @@
                     <div class="carousel-caption">
                         <h1>The Facebook Dilemma</h1>
                         <p></p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="facebook.html" role="button">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -129,7 +165,7 @@
                     <div class="carousel-caption">
                         <h1>Legal Aspects of Online Privacy</h1>
                         <p></p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="legal.html" role="button">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -144,87 +180,32 @@
         </a>
     </div>
 
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-                <h2>Heading</h2>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div class="container-fluid no-padding">
+        <div style="display: flex">
+            <div class="row article-card" style="width: 65%">
+                <div class="container" style="width: 60%;margin: auto; padding-top: 20px">
+                    <p class="des" style="font-size: 14pt; color: #535252; line-height: 27pt">Did you ever use the internet to buy something online? If so, did you find yourself getting ads that are conveniently similar to the products you were looking at or bought? This is just one of many examples of how companies use the internet to advertise content that suits you. While this can be convenient for your user experience while surfing the web, wouldn't you consider this a little too intimate? How much of you does the internet know about? Are these companies invading your online privacy? Whatever the case is, this website will provide you information on how to protect your privacy, how tech companies track you, legal aspects of online privacy, and much more!</p>
+                </div>
             </div>
-            <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+            <div class="row article-card" style="width: 35%">
+                <div class="container"  style="width: 50%;margin: auto">
+                    <div class="row justify-content-center">
+                        <p class="des" style="font-size: 20pt; color: #535252"> <b>About the Author</b></p>
+                        <a href="about.html"><button type="button" class="btn btn-light btn-lg">Hiromasa Fujita</button></a>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            </div>
-            <div class="col-md-5 order-md-1">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            </div>
-            <div class="col-md-5">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-            </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
-
     </div><!-- /.container -->
 
+    <hr class="featurette-divider">
 
     <!-- FOOTER -->
     <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>IS117 2020</p>
     </footer>
 </main>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script></body>
+<script>window || document.write()</script><script src="js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script></body>
 </html>
