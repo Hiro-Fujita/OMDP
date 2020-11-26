@@ -19,11 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27769ef2-d30c-4897-acc1-11d0e68021f0" name="Default Changelist" comment="foundation">
-      <change afterPath="$PROJECT_DIR$/images/hiromasa.jpg" afterDir="false" />
+    <list default="true" id="27769ef2-d30c-4897-acc1-11d0e68021f0" name="Default Changelist" comment="new changes">
+      <change afterPath="$PROJECT_DIR$/images/legal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/look.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/people.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tracking.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/anonymous.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/anonymous.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/tracking.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/tracking.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tracking.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +82,8 @@
       <workItem from="1606327822839" duration="22818000" />
       <workItem from="1606366173402" duration="1134000" />
       <workItem from="1606367438848" duration="1114000" />
-      <workItem from="1606369269273" duration="6566000" />
+      <workItem from="1606369269273" duration="7232000" />
+      <workItem from="1606424861807" duration="5407000" />
     </task>
     <task id="LOCAL-00001" summary="foundation">
       <created>1606365598679</created>
@@ -88,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606365598679</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new changes">
+      <created>1606386870143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606386870143</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,10 +115,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="foundation" />
-    <option name="LAST_COMMIT_MESSAGE" value="foundation" />
+    <MESSAGE value="new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="837" y="238" key="#Deployment" timestamp="1606371295038">
@@ -122,14 +135,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606375977435" />
-    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606364081279">
+    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606425776172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606364081279" />
-    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1606368388752">
+    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606425776172" />
+    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1606433102926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606368388752" />
+    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606433102926" />
     <state x="1318" y="421" key="Github.ShareDialog" timestamp="1606348666029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -138,14 +151,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1251" y="228" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606348675375" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606365611393">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606386879942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606365611393" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606365605193">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606386879942" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606386884179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606365605193" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606386884179" />
     <state x="1330" y="324" key="ftp.server.browser" timestamp="1606370426305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

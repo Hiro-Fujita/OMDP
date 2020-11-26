@@ -21,7 +21,7 @@
 
     <style>
         .carousel-item{
-            height:32rem;
+            height:36rem;
             color:white;
             position: relative;
             background: #777 center;
@@ -34,25 +34,19 @@
         }
 
         #tracking {
-            background: url("images/tracking_pic.jpg") no-repeat center;
-            background-size: cover;
+            background: url("images/tracking.jpg") no-repeat center;
+            background-size: auto;
             position: relative;
         }
 
-        #lookalike {
-            background: url("images/laptop.jpg") no-repeat center;
-            background-size: cover;
-            position: relative;
-        }
-
-        #lowprofile {
-            background: url("images/lowProfile_pic.jpg") no-repeat center;
-            background-size: cover;
+        #look {
+            background: url("images/look.jpg") no-repeat center;
+            background-size: auto;
             position: relative;
         }
 
         #legal {
-            background: url("images/legal_pic.jpg") no-repeat center;
+            background: url("images/legal.jpg") no-repeat center;
             background-size: cover;
             position: relative;
         }
@@ -64,8 +58,8 @@
         }
 
         #people {
-            background: url("images/Important_people_pic.jpg") no-repeat center;
-            background-size: cover;
+            background: url("images/people.jpg") no-repeat center;
+            background-size: auto;
             position: relative;
         }
     </style>
@@ -109,17 +103,18 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/anonymous.jpg" alt=""/>
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>How to Become Anonymous</h1>
-                        <p>Tips to avoid getting tracked</p>
-                        <p><a class="btn btn-lg btn-primary" href="anonymous.html" role="button">Learn more</a></p>
+                <div id="anonymous" style="height: 600px;">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>How to Become Anonymous</h1>
+                            <p>Tips to avoid getting tracked</p>
+                            <p><a class="btn btn-lg btn-primary" href="anonymous.html" role="button">Learn more</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div id="anonymous" style="height: 600px;">
+                <div id="tracking" style="height: 600px;">
                     <div class="carousel-caption">
                         <h1>Tracking Online</h1>
                         <p>The ways in which information is obtained</p>
@@ -128,27 +123,28 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Look-Alike Analysis</h1>
-                        <p>Why advertisements are catered towards you</p>
-                        <p><a class="btn btn-lg btn-primary" href="look.html" role="button">Learn more</a></p>
+                <div id="look" style="height: 600px;">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Look-Alike Analysis</h1>
+                            <p>Why advertisements are catered towards you</p>
+                            <p><a class="btn btn-lg btn-primary" href="look.html" role="button">Learn more</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Important People</h1>
-                        <p>Shoshana Zuboff and Edward Snowden</p>
-                        <p><a class="btn btn-lg btn-primary" href="people.html" role="button">Learn more</a></p>
+                <div id="people" style="height: 600px;">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Important People</h1>
+                            <p>Shoshana Zuboff and Edward Snowden</p>
+                            <p><a class="btn btn-lg btn-primary" href="people.html" role="button">Learn more</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>The Facebook Dilemma</h1>
@@ -158,12 +154,13 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Legal Aspects of Online Privacy</h1>
-                        <p></p>
-                        <p><a class="btn btn-lg btn-primary" href="legal.html" role="button">Learn more</a></p>
+                <div id="legal" style="height: 600px;">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Legal Aspects of Online Privacy</h1>
+                            <p></p>
+                            <p><a class="btn btn-lg btn-primary" href="legal.html" role="button">Learn more</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
