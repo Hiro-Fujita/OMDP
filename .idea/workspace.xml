@@ -19,23 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27769ef2-d30c-4897-acc1-11d0e68021f0" name="Default Changelist" comment="new changes to homepage design">
-      <change afterPath="$PROJECT_DIR$/images/caveman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/dataprivacy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/extensions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/facebook.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/fbdilemma.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/incognito.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/njit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/nosocialmedia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/security.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/vpn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/zuboff.jpg" afterDir="false" />
+    <list default="true" id="27769ef2-d30c-4897-acc1-11d0e68021f0" name="Default Changelist" comment="updated">
+      <change afterPath="$PROJECT_DIR$/images/browsing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cookies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fingerprint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/http.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ipaddress.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lookalike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/webserver.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/anonymous.html" beforeDir="false" afterPath="$PROJECT_DIR$/anonymous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/facebook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/njit.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/legal.html" beforeDir="false" afterPath="$PROJECT_DIR$/legal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/look.html" beforeDir="false" afterPath="$PROJECT_DIR$/look.html" afterDir="false" />
@@ -97,7 +92,7 @@
       <workItem from="1606366173402" duration="1134000" />
       <workItem from="1606367438848" duration="1114000" />
       <workItem from="1606369269273" duration="7232000" />
-      <workItem from="1606424861807" duration="26742000" />
+      <workItem from="1606424861807" duration="44407000" />
     </task>
     <task id="LOCAL-00001" summary="foundation">
       <created>1606365598679</created>
@@ -120,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606433347433</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated">
+      <created>1606521102191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606521102191</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +144,8 @@
     <MESSAGE value="foundation" />
     <MESSAGE value="new changes" />
     <MESSAGE value="new changes to homepage design" />
-    <option name="LAST_COMMIT_MESSAGE" value="new changes to homepage design" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="837" y="238" key="#Deployment" timestamp="1606371295038">
@@ -157,10 +160,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606375977435" />
-    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606515862684">
+    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606606879670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606515862684" />
+    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606606879670" />
     <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1606508114508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -173,14 +176,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1251" y="228" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606348675375" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606433363003">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606521112520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606433363003" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606433366096">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606521112520" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606521131469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606433366096" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606521131469" />
     <state x="1330" y="324" key="ftp.server.browser" timestamp="1606370426305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
